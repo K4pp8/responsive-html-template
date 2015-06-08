@@ -1,7 +1,7 @@
 Responsive Html Templare
 ===================
 
-Struttura base per un sito statico in html sealizzato con tecnologie moderne per il frontend
+Struttura base per un sito statico in html realizzato con tecnologie moderne per il frontend
 
 Stato estemamente alfa
 
