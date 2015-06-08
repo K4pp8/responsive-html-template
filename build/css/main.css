@@ -148,13 +148,18 @@ td, th {
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
 
+header nav a, header .kicker, footer .content-wrap a {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 header {
   height: 450px;
-  background: #ccc; }
+  background: url("/img/bg-home-01.jpg") center center;
+  background-size: cover; }
   header .logo {
     height: 50px;
     width: 50px;
-    background: #999;
     float: left;
     margin: 10px 0 0 30px; }
   header nav {
@@ -164,9 +169,6 @@ header {
       dispaly: inline-block;
       margin-left: 20px;
       color: rgba(0, 0, 0, 0.7);
-      font-size: 14px;
-      font-weight: 700;
-      text-transform: uppercase;
       text-decoration: none; }
       header nav a:hover {
         color: black; }
@@ -186,8 +188,36 @@ header {
       border: #FFF solid 10px; }
   header .kicker {
     text-align: center;
-    font-weight: 700;
     color: #FFF;
     text-transform: uppercase;
     letter-spacing: 0.5em;
     line-height: 1; }
+
+footer {
+  background: #ccc;
+  background-size: cover; }
+  footer .lockup {
+    padding: 50px 30px; }
+    footer .lockup:after {
+      content: "";
+      display: table;
+      clear: both; }
+  footer .logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 30px; }
+  footer .content-wrap {
+    float: left; }
+    footer .content-wrap .copyright {
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.4); }
+    footer .content-wrap a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.7);
+      display: inline-block;
+      margin-right: 30px; }
+      footer .content-wrap a:hover {
+        color: black; }

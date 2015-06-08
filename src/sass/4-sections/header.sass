@@ -1,10 +1,12 @@
 header
 	height: 450px
-	background:#ccc
+	background: url("/img/bg-home-01.jpg") center center
+	//fixme putroppo coven non funziona su ie8
+	background-size: cover
+
 
 	.logo
 		+size(50px)
-		background:#999
 		float: left
 		margin: 10px 0 0 30px
 
@@ -15,10 +17,7 @@ header
 			dispaly: inline-block
 			margin-left: 20px
 			color: rgba( 0,0,0,0.7 )
-			font:
-				size: 14px
-				weight: 700
-			text-transform: uppercase
+			@extend %small-bold
 			text-decoration: none
 
 			&:hover
@@ -42,8 +41,7 @@ header
 			border: #FFF solid 10px
 	.kicker
 		text-align: center
-		font: 
-			weight: 700
+		@extend %small-bold
 		color: #FFF
 		text-transform: uppercase
 		letter-spacing: 0.5em
