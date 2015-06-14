@@ -4,7 +4,31 @@ $( document ).ready(function() {
 
   workBelt();
 
+  workload();
+
 });
+
+function workload() {
+	$.ajaxSetup({ cache: false });
+	$('.thumb-unit').click( function() {
+		
+		var $this = $(this),
+
+			newTitle = $this.find( 'strong' ),
+			spinner = '<div class="loader">Loading...</div>',
+		 	newHTML = '/work-dummy.html';
+			
+			console.log(newTitle );
+			//console.log($this );
+			//newTitle.innerText
+
+		$('.project-load').html(spinner).load( newHTML );
+		
+		//FIXME Cambiare il titolo al volo 
+		//$('.projec-title').text( newTitle );
+	 });
+
+}
 
 function workBelt() {
 	$('.thumb-unit').on( 'click' , function(){
