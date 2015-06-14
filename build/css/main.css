@@ -314,10 +314,6 @@ h3 {
   .face-lockup .icon-about {
     height: 50px;
     width: 50px; }
-  @media screen and (max-width: 650px) {
-    .face-lockup {
-      display: none;
-        display-text-align: center; } }
 
 .blurb {
   max-width: 620px;
