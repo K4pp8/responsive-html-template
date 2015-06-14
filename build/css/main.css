@@ -326,6 +326,18 @@ h3 {
 .alt-section {
   background: #e5eaee; }
 
+.section-work {
+  overflow-x: hidden; }
+
+.work-belt {
+  width: 200%;
+  position: relative;
+  left: -100%; }
+
+.thumb-wrap, .work-wrap {
+  width: 50%;
+  float: left; }
+
 .thumb-container {
   max-width: 960px;
   margin: 0px auto;
@@ -371,6 +383,19 @@ h3 {
       right: 0px;
       bottom: 0px;
       left: 0px; }
+
+.work-container {
+  max-width: 960px;
+  margin: 0px auto; }
+  .work-container h4 {
+    color: #E1C184;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 1.2; }
+  .work-container img {
+    max-width: 100%;
+    margin-bottom: 20px; }
 
 footer {
   background: #ccc;

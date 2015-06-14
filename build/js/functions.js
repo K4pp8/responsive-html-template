@@ -1,5 +1,1 @@
-$( document ).ready(function() {
-
-  //
-
-});
+function smoothScroll(o){$('a[href^="#"').on("click",function(t){var n=$($(this).attr("href"));n.length&&(t.preventDefault(),$("html, body").animate({scrollTop:n.offset().top},o))})}$(document).ready(function(){smoothScroll(300)});
