@@ -314,6 +314,10 @@ h3 {
   .face-lockup .icon-about {
     height: 50px;
     width: 50px; }
+  @media screen and (max-width: 650px) {
+    .face-lockup {
+      display: none;
+        display-text-align: center; } }
 
 .blurb {
   max-width: 620px;
@@ -343,6 +347,55 @@ h3 {
       background-color: #999;
       margin-right: 2px;
       border-radius: 50%; }
+
+.alt-section {
+  background: #e5eaee; }
+
+.thumb-container {
+  max-width: 960px;
+  margin: 0px auto;
+  padding-bottom: 100px; }
+  .thumb-container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .thumb-container .thumb-unit {
+    width: 25%;
+    height: 150px;
+    display: block;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media screen and (max-width: 670px) {
+      .thumb-container .thumb-unit {
+        width: 50%; } }
+    .thumb-container .thumb-unit .thumb-overley {
+      position: absolute;
+      top: 100%;
+      right: 0px;
+      left: 0px;
+      background: rgba(225, 193, 132, 0.9);
+      text-align: center;
+      -webkit-transition: all 0.15s ease-out 0s;
+      -moz-transition: all 0.15s ease-out 0s;
+      transition: all 0.15s ease-out 0s; }
+      .thumb-container .thumb-unit .thumb-overley strong {
+        display: block;
+        padding: 20px;
+        color: #FFF;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 24px;
+        line-height: 1.2; }
+    .thumb-container .thumb-unit:hover .thumb-overley {
+      position: absolute;
+      top: 0%;
+      right: 0px;
+      bottom: 0px;
+      left: 0px; }
 
 footer {
   background: #ccc;
