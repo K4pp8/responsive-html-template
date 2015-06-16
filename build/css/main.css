@@ -491,6 +491,35 @@ footer {
 
 .clients-belt {
   width: 100%;
-  position: relative;
-  max-width: 700px;
-  margin: 0 auto 50px; }
+  position: relative; }
+  .clients-belt .clients-unit {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .clients-belt .clients-unit .client-face {
+      min-width: 300px;
+      text-align: center; }
+      .clients-belt .clients-unit .client-face img {
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50%; }
+      .clients-belt .clients-unit .client-face .client-name {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 1px; }
+      .clients-belt .clients-unit .client-face .client-title {
+        font-style: normal;
+        font-size: 12px;
+        color: #999; }
+    .clients-belt .clients-unit .clients-content {
+      font-size: 18px;
+      line-height: 36px;
+      font-weight: 300;
+      margin-top: -10px; }

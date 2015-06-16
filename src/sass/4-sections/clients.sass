@@ -3,5 +3,35 @@
 	position: relative
 
 	.clients-unit
-	max-width: 700px
-	margin: 0 auto 50px
+		max-width: 700px
+		margin: 0 auto 50px
+		+display(flex)
+
+		.client-face
+			min-width: 300px
+			text-align: center
+
+			img
+				max-width: 100px
+				max-height: 100px
+				border-radius: 50%
+
+			.client-name
+				display: block
+				text-transform: uppercase
+				font-weight: 400
+				letter-spacing: 1px
+
+			.client-title
+				font-style: normal
+				font-size: 12px
+				color: #999 
+
+		.clients-content
+			font-size: 18px 
+			line-height: 36px
+			font-weight: 300
+			margin-top: -10px
+
+.clients-logos
+	.client-logo
