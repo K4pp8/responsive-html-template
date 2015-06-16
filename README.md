@@ -6,7 +6,7 @@ Struttura base per un sito statico in html realizzato con tecnologie moderne per
 Stato estemamente alfa
 
 Da implementare:
-- about
+- client
 - altre sezioni interne
 
 Implementato:
@@ -19,4 +19,6 @@ Implementato:
 - versionemeto su git
 - ignorare i node_modules
 - home
+- about
+- work
 - footer
