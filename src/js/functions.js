@@ -13,19 +13,17 @@ function workload() {
 	$('.thumb-unit').click( function() {
 		
 		var $this = $(this),
-
-			newTitle = $this.find( 'strong' ),
+			newTitle = $this.find( 'strong' ).text(),
+			// variabile da usare per passare la cartella del progetto
+			cartellaproj = $this.data( 'folder' ),
 			spinner = '<div class="loader">Loading...</div>',
 		 	newHTML = '/work-dummy.html';
-			
-			console.log(newTitle );
-			//console.log($this );
-			//newTitle.innerText
 
-		$('.project-load').html(spinner).load( newHTML );
-		
-		//FIXME Cambiare il titolo al volo 
-		//$('.projec-title').text( newTitle );
+		 	console.log( cartellaproj );
+
+			$('.project-load').html(spinner).load( newHTML );
+			
+			$('.projec-title').text( "< " + newTitle );
 	 });
 
 }
