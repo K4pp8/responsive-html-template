@@ -6,7 +6,25 @@ $( document ).ready(function() {
 
   workload();
 
+  clientload();
+
 });
+
+function clientload() {
+	$( '.client-logo' ).click(function () {
+		var $this = $(this),
+		clentNR = $this.data( 'client' );
+
+		//Deattivo tutto e setto l'elemento cliccato
+		$('.client-logo').removeClass('active-client');
+		$this.addClass('active-client');
+
+		//Cambio il contenuto
+		$('.client-name').text( "New " + clentNR + " Nome Cognome" );
+		$('.client-title').text( "New " + clentNR + "Titolo lavorativo" );
+		$('.clients-content').text( "New " + clentNR + "content" );
+	});
+}
 
 function workload() {
 	$.ajaxSetup({ cache: false });
