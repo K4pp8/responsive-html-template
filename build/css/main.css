@@ -523,3 +523,44 @@ footer {
       line-height: 36px;
       font-weight: 300;
       margin-top: -10px; }
+
+.clients-logos {
+  position: relative;
+  max-width: 750%;
+  margin: 0 auto 100px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: space-around;
+  -moz-box-align: space-around;
+  box-align: space-around;
+  -webkit-align-items: space-around;
+  -moz-align-items: space-around;
+  -ms-align-items: space-around;
+  -o-align-items: space-around;
+  align-items: space-around;
+  -ms-flex-align: space-around;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center; }
+  .clients-logos .client-logo {
+    height: 80px;
+    min-width: 160px;
+    background-image: url(http://dummyimage.com/160x80/000/fff);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 0px 10px; }
+    .clients-logos .client-logo.active-client {
+      box-shadow: 0px 4px 0px #E1C184; }
