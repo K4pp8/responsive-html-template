@@ -24,6 +24,21 @@ function clientload() {
 		$('.client-title').text( "New " + clentNR + "Titolo lavorativo" );
 		$('.clients-content').text( "New " + clentNR + "content" );
 	});
+
+	//FIXME NON funzione na mazza
+	$( '.clients-mobile-nav span' ).click(function () {
+		var $this = $(this),
+		clentNR = $this.data( 'client' );
+
+		//Deattivo tutto e setto l'elemento cliccato
+		$('.clients-mobile-nav span').removeClass('active-client');
+		$this.addClass('active-client');
+
+		//Cambio il contenuto
+		$('.client-name').text( "New " + clentNR + " Nome Cognome" );
+		$('.client-title').text( "New " + clentNR + "Titolo lavorativo" );
+		$('.clients-content').text( "New " + clentNR + "content" );
+	});
 }
 
 function workload() {

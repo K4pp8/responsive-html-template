@@ -567,3 +567,37 @@ footer {
     .clients-logos .client-logo.active-client {
       border-bottom: 4px solid #E1C184;
       opacity: 1; }
+
+.clients-mobile-nav {
+  text-align: center;
+  display: none; }
+  .clients-mobile-nav span {
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: solid 2px #E1C184;
+    margin: 0 10px 20px 10px;
+    opacity: 0.5; }
+    .clients-mobile-nav span.active-client {
+      border-bottom: 2px solid #E1C184;
+      opacity: 1; }
+
+@media (max-width: 750px) {
+  .clients-belt .clients-unit {
+    display: block;
+    position: relative;
+    margin-left: 0px;
+    left: auto; }
+  .clients-belt .client-face {
+    margin-bottom: 20px; }
+  .clients-belt .clients-content {
+    padding: 0px 30px;
+    max-width: 400px;
+    margin: 0px auto; }
+  .clients-logos {
+    display: none; } }
+
+.clients-mobile-nav {
+  display: block; }
