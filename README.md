@@ -1,23 +1,17 @@
-Responsive Html Templare
-===================
-
-Struttura base per un sito statico in html realizzato con tecnologie moderne per il frontend
+# Responsive Html Templare
+Scheletro per una newsletter
 
 Stato estemamente alfa
 
-Da implementare:
-- altre sezioni interne
+Struttura base per un sito statico in html realizzato con tecnologie moderne per il frontend
 
-Implementato:
-- setup gulp
-- live reload
-- build sass
-- bulid jade
-- minifying img
-- build iniziale di tutto
-- versionemeto su git
-- ignorare i node_modules
-- home
-- about
-- work
-- footer
+### Per iniziare:
+- Installare [nodeJS](http://nodejs.org/download/)
+- Da teminale `npm install` stando sulla cartella
+- Da teminale `gulp` per lanciare in live reload e il build inline dei css
+
+Da implementare:
+- Inserire form
+- Implementare e/o sostituire skills
+- Fixare pallocci responsive
+- sostituire icone-immagini con iconfon ( icoMoon )
