@@ -1,0 +1,31 @@
+.section-contact
+	text-align: center
+
+.social-links
+	max-width: 700px
+	margin: 0px auto 50px
+	+display(flex)
+	+justify-content(space-around)
+
+	a
+		display: block
+		+size(50px)
+		text-align: center
+		line-height: 50px
+		font-size: 28px
+		+transition()
+
+		&:hover
+			+transform( scale(1.2) )
+
+.bar
+	width: 250px
+	height: 0px
+	border-top: 4px solid #CCC
+	margin: 0px auto 70px
+
+.biglink
+	display: inline-block
+	font-size: 72px
+	font-weight: 300
+	margin-bottom: 60px

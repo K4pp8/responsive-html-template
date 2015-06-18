@@ -6,7 +6,6 @@ Struttura base per un sito statico in html realizzato con tecnologie moderne per
 Stato estemamente alfa
 
 Da implementare:
-- client
 - altre sezioni interne
 
 Implementato:
