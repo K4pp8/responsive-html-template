@@ -1,8 +1,11 @@
 header
 	height: 450px
-	background: url("/img/bg-home-01.jpg") center center
+	background: 
+		position: 0px 0px, 50%, 50%
+		image:url("/img/bg-home-01.jpg")
+		size:cover
 	//fixme putroppo coven non funziona su ie8
-	background-size: cover
+
 
 
 	.logo
@@ -46,3 +49,19 @@ header
 		text-transform: uppercase
 		letter-spacing: 0.5em
 		line-height: 1
+
+@media (max-width: 640px)
+	
+	header
+		background: 
+			position: 50% 20px, 50%, 50%
+
+		nav
+			float: none
+			text-align: center
+			padding-top: 90px
+
+		h1
+			padding-top: 0px
+
+

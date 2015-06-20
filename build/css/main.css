@@ -343,7 +343,8 @@ header nav a, header .kicker, h3, footer .content-wrap a {
 
 header {
   height: 450px;
-  background: url("/img/bg-home-01.jpg") center center;
+  background-position: 0px 0px, 50%, 50%;
+  background-image: url("/img/bg-home-01.jpg");
   background-size: cover; }
   header .logo {
     height: 50px;
@@ -380,6 +381,16 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     line-height: 1; }
+
+@media (max-width: 640px) {
+  header {
+    background-position: 50% 20px, 50%, 50%; }
+    header nav {
+      float: none;
+      text-align: center;
+      padding-top: 90px; }
+    header h1 {
+      padding-top: 0px; } }
 
 h3 {
   color: #E1C184;
