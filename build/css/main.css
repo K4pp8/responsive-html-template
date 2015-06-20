@@ -707,3 +707,44 @@ footer {
   font-size: 72px;
   font-weight: 300;
   margin-bottom: 60px; }
+
+form {
+  max-width: 450px;
+  margin: 0 auto 50px; }
+  form input, form textarea {
+    border: 3px solid #E1C184;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px; }
+    form input:focus, form textarea:focus {
+      outline: none;
+      border-color: #CCC; }
+  form textarea {
+    height: 10em; }
+  form .submit-wrap {
+    text-align: right; }
+  form [type="submit"] {
+    background: #E1C184;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 33%; }
+    form [type="submit"]:hover {
+      border-color: #CCC; }
+  form .contacto-info-group label {
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    form .contacto-info-group label:nth-child(1) {
+      padding-right: 10px; }
+    form .contacto-info-group label:nth-child(2) {
+      padding-left: 10px; }
+  form label {
+    display: block;
+    margin-bottom: 20px; }
+    form label span {
+      display: block; }

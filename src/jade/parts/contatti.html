@@ -20,10 +20,25 @@
 
 <section>
 	
-<form action="//forms.brace.io/you@email.com">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+<!-- Bisogna modificare you@email.com -->
+<form method="POST" action="//forms.brace.io/you@email.com">
+    
+	<div class="contacto-info-group" >
+	    <label><span>Nome</span>
+	    <input type="text" name="name">
+	    </label>
+	     <label><span>Email</span>
+	    <input type="email" name="_replyto">
+	    </label>
+	    </div>
+	    <label><span>Messaggio</span>
+	    <textarea name="message"></textarea></label>
+	    
+	    <div class="submit-wrap">
+	    	<input type="submit" value="Invia">
+	    </div>
+	 
+
 </form>
 
 </section>

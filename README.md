@@ -11,7 +11,7 @@ Struttura base per un sito statico in html realizzato con tecnologie moderne per
 - Da teminale `gulp` per lanciare in live reload e il build inline dei css
 
 Da implementare:
-- Inserire form
+- Rendere il tutto responsive
 - Implementare e/o sostituire skills
 - Fixare pallocci responsive
 - sostituire icone-immagini con iconfon ( icoMoon )
