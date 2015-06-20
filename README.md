@@ -10,8 +10,12 @@ Struttura base per un sito statico in html realizzato con tecnologie moderne per
 - Da teminale `npm install` stando sulla cartella
 - Da teminale `gulp` per lanciare in live reload e il build inline dei css
 
-Da implementare:
-- Rendere il tutto responsive
+Da implementare in questa versione:
 - Implementare e/o sostituire skills
 - Fixare pallocci responsive
 - sostituire icone-immagini con iconfon ( icoMoon )
+
+Features:
+- Usare boostrap e fondation
+- Usare jade come si deve
+- Montare turro su un template engine php
