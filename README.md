@@ -1,8 +1,5 @@
 # Responsive Html Templare
-Scheletro per una newsletter
-
 Stato estemamente alfa
-
 Struttura base per un sito statico in html realizzato con tecnologie moderne per il frontend
 
 ### Per iniziare:
