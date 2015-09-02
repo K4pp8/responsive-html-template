@@ -12,7 +12,10 @@ Da implementare in questa versione:
 - definire transizioni standard
 - definire gradienti su immagini
 - controllare anche bg full-screan
-
 - implementare contenuti dummy
 - Usare jade come si deve
 - modificare la roba bootstrapposa con theme.css
+
+Considerazioni varie:
+- se devo utilizzare bootsrap 3.* mi conviene passare a LESS
+- jade per adesso è inutile 
