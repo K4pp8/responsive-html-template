@@ -8,11 +8,9 @@ Struttura base per un sito statico in html realizzato con tecnologie moderne per
 - Da teminale `gulp` per lanciare in live reload e il build inline dei css
 
 Da implementare in questa versione:
-- Implementare e/o sostituire skills
-- Fixare pallocci responsive
-- sostituire icone-immagini con iconfon ( icoMoon )
+- sistemare footer
+- implementare contenuti dummy
+- definire transizioni standard
 
 Features:
-- Usare boostrap e fondation
 - Usare jade come si deve
-- Montare tutto su un template engine php
