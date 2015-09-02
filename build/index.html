@@ -1,258 +1,144 @@
 <!-- TODO Tradurre tutto in jade e non solo parti html--><!-- Prima la struttura dell'index e poi eventualmente anche le sezioni--><!DOCTYPE html>
-<html>
-    <head>
-        <title> Responsive template </title>
-    	<link rel="stylesheet" href="css/main.css">
-    </head>
-<body><header>
-	<div class="logo"> <img src="/img/logo-02-01.png"></div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Responsive template</title>
 
-	<nav> <!-- TODO Da cambiare in ul -> li -->
-		<a href="#about"> About </a>
-		<a href="#work"> Work </a>
-		<a href="#clients"> Clients </a>
-		<a href="#contact"> Contact </a>
-	</nav>
-
-	<h1> <span> KBWD</span> </h1>
-		<p class="kicker"> web Designer // Developer </p>
-
-</header><section>
-
-	<h3 id="about"> About me </h3>
-
-	<div class="face-lockup" > 
-
-		<!-- TODO inserire delle icone serie -->
-		<div class="icon-about" ><img src="/img/logo-01.png"></div>
-		<div class="icon-about" ><img src="/img/logo-01.png"></div>
-		<div class="face-img" ></div>
-		<div class="icon-about" ><img src="/img/logo-01.png"></div>
-		<div class="icon-about" ><img src="/img/logo-01.png"></div>
-
-	</div>
-	<div class="blurb">
-		<p> <strong>Lorem Ipsum è un testo segnaposto</strong> utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.</p>
-	</div>
-
-<!-- TODO da implementare e/o sostituire -->
-<!-- 	<div class="skill-lockup" >
-		<div class="skill-unit">
-			<div class="skill-label" >Design</div>
-			<div class="skill-icon" >
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-		<div class="skill-unit">
-			<div class="skill-label" >Comunication</div>
-			<div class="skill-icon" >
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-		<div class="skill-unit">
-			<div class="skill-label" >Orcanizarion</div>
-			<div class="skill-icon" >
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-		<div class="skill-unit">
-			<div class="skill-label" > Learning</div>
-			<div class="skill-icon" >
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-		<div class="skill-unit">
-			<div class="skill-label" >Teaching</div>
-			<div class="skill-icon" >
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-			<div class="skill-unit">
-			<div class="skill-label" >UX</div>
-			<div class="skill-icon" >
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-			<div class="skill-unit">
-			<div class="skill-label" >Programmign</div>
-			<div class="skill-icon" >
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-	</div> -->
-
-</section><section class="alt-section section-work">
-	<h3 id="work" >Work</h3>
-
-	<div class="work-belt">
-
-		<div class="thumb-wrap">
-			<div class="thumb-container">
-							
-				<div class="thumb-unit" data-folder="proj-1" style="background-image: url(http://placekitten.com/g/600/406);">
-					<div class="thumb-overley">
-						<strong> Work element 1</strong>
-						<div class="zoom-icon"></div>
-					</div>
-				</div>
-				<div class="thumb-unit" data-folder="proj-2" style="background-image: url(http://placekitten.com/g/600/409);">
-					<div class="thumb-overley">
-						<strong> Work element 2</strong>
-						<div class="zoom-icon"></div>
-					</div>
-				</div>
-				<div class="thumb-unit" data-folder="proj-3" style="background-image: url(http://placekitten.com/g/600/408);">
-					<div class="thumb-overley">
-						<strong> Work element 3</strong>
-						<div class="zoom-icon"></div>
-					</div>
-				</div>
-				<div class="thumb-unit" data-folder="proj-4" style="background-image: url(http://placekitten.com/g/600/405);">
-					<div class="thumb-overley">
-						<strong> Work element 4</strong>
-						<div class="zoom-icon"></div>
-					</div>
-				</div>
-				<div class="thumb-unit" data-folder="proj-5" style="background-image: url(http://placekitten.com/g/600/404);">
-					<div class="thumb-overley">
-						<strong> Work element 5</strong>
-						<div class="zoom-icon"></div>
-					</div>
-				</div>
-				<div class="thumb-unit" folder="proj-6" style="background-image: url(http://placekitten.com/g/600/403);">
-					<div class="thumb-overley">
-						<strong> Work element 6</strong>
-						<div class="zoom-icon"></div>
-					</div>
-				</div>
-				<div class="thumb-unit" data-folder="proj-7" style="background-image: url(http://placekitten.com/g/600/402);">
-					<div class="thumb-overley">
-						<strong> Work element 7</strong>
-						<div class="zoom-icon"></div>
-					</div>
-				</div>
-				<div class="thumb-unit" data-folder="proj-8" style="background-image: url(http://placekitten.com/g/600/401);">
-					<div class="thumb-overley">
-						<strong> Work element 8</strong>
-						<div class="zoom-icon"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="work-wrap">
-			<div class="work-container">
-				<h4 class="projec-title work-return"> < DO work</h4>
-				<div class="project-load"></div>
-			
-			</div>
-		</div>
-	</div>
-</section><section>
-
-	<h3 id="clients"> Clients </h3>
-
-	<div class="client-controls">
-		<div class="client-control-next"></div>
-		<div class="client-control-next"></div>
-	</div>
-
-	<div class="clients-belt">
-		
-		<div class="clients-unit">
-			
-			<div class="client-face">
-				<img src="http://placekitten.com/g/500/500" width="">
-				<strong class="client-name">Nome Cognome</strong>
-				<em class="client-title"> Titolo lavorativo </em>
-			</div>
-
-			<div class="clients-content">
-				<p><strong>Lorem Ipsum è un testo segnaposto</strong> utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.</p>
-			</div>
-
-		</div>
-
-	</div>
-
-	<div class="clients-mobile-nav">
-		<span class="active-client" data-client="1"></span>
-		<span data-client="2"></span>
-		<span data-client="3"></span>
-		<span data-client="4"></span>
-	</div>
-
-	<div class="clients-logos">
-		
-		<div class="client-logo active-client" data-client="1"></div>
-		<div class="client-logo" data-client="2"></div>
-		<div class="client-logo" data-client="3"></div>
-		<div class="client-logo" data-client="4"></div>
-
-	</div>
-
-</section><section id="contact" class="alt-section section-contact">
+    <!-- Main con boostrap integrato Bootstrap -->
+    <link href="css/main.css" rel="stylesheet">
 	
-	<h3>Contact</h3>
+	<!-- Font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,400italic,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 
-	<div class="social-links">
-		
-		<a href="" class="icon-twitter"></a>
-		<a href="" class="icon-facebook"></a>
-		<a href="" class="icon-github"></a>
-		<a href="" class="icon-pinterest"></a>
-		<a href="" class="icon-behance"></a>
-
-	</div>
-
-	<br class="bar">
-
-	<a href="" class="biglink"> cat@lolcat.meme</a>
-
-	
-<!-- Bisogna modificare you@email.com -->
-<form method="POST" action="//forms.brace.io/you@email.com">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body><nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container" >
     
-	<div class="contacto-info-group" >
-	    <label><span>Nome</span>
-	    <input type="text" name="name">
-	    </label>
-	     <label><span>Email</span>
-	    <input type="email" name="_replyto">
-	    </label>
-	    </div>
-	    <label><span>Messaggio</span>
-	    <textarea name="message"></textarea></label>
-	    
-	    <div class="submit-wrap">
-	    	<input type="submit" value="Invia">
-	    </div>
-	 
+     <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed no-border" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">KBWD</a>
+    </div>
 
-</form>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" >
 
-</section><!--include ./parts/content.html-->	<footer>
-		
-		<div class="lockup">
-			<div class="logo"> <img src="/img/logo-02-01.png"></div>
-			
-			<div class="content-wrap">
-				
-				<nav> <!-- TODO Da cambiare in ul -> li -->
-					<a href="#about"> About </a>
-					<a href="#work"> Work </a>
-					<a href="#clients"> Clients </a>
-					<a href="#contact"> Contact </a>
-				</nav>
-			
-				<p class="copyright"> All contan copiright 2015</p>
+        <li class="active"><a href="#">about <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">contatti</a></li>
 
-			</div>
+      </ul>
+
+	<ul class="nav navbar-nav navbar-right hidden-xs">
+		<li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+    	<li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+    	<li><a href="#"> <i class="fa fa-github"></i> </a></li>
+     </ul>
+
+    </div><!-- /.navbar-collapse -->
+    <div style="border-bottom:2px solid #000"></div>
+  </div>
+</nav>
+
+<div class="container">
+
+	<div class="jumbotron">
+	  <h1>Ciao, sono Klaudio.</h1>
+	  <p>Mi piace programmare e progettare grafiche.<br>Ogni giorno cerco di risolvere problemi e di combattere contro il brutto.</p>
+	  <p><a class="btn btn-primary btn-lg" href="#modal-test" data-toggle="modal" role="button">Contattami</a></p>
+	
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+			<a href="#" class="thumbnail">
+				<img src="http://placekitten.com/g/600/400" alt="Simple text">
+			</a>
+			<h3>Titolo articolo</h3>
+			<p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato.</p>
+			<a href="#" class="btn btn-primary"> more </a>
+		</div>
+		<div class="col-md-4">
+			<a href="#" class="thumbnail">
+				<img src="http://placekitten.com/g/600/500" alt="Simple text">
+			</a>
+			<h3>Titolo articolo</h3>
+			<p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato.</p>
+			<a href="#" class="btn btn-primary"> more </a>
+		</div>
+		<div class="col-md-4">
+			<a href="#" class="thumbnail">
+				<img src="http://placekitten.com/g/600/408" alt="Simple text">
+			</a>
+			<h3>Titolo articolo</h3>
+			<p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato.</p>
+			<a href="#" class="btn btn-primary"> more </a>
 		</div>
 
-	</footer>
+	</div>
 
-    <script src="/js/js-util/jquery-2.1.1.min.js"></script>
-    <script src="/js/functions.js" type="text/javascript"></script>
-</body>
+</div>
+
+<!-- Finestra modale -->
+<div id="modal-test" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="form-horizontal" role="form">
+				<div class="modal-header">
+					<h4>Contati</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-primary" data-dismiss="modal"> chiudi </a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</div>
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+  <div class="container" >
+   
+    <div class="navbar-text pull-left">
+    	<p>Testo per il copiright</p>
+    </div>
+
+ 	<div class="navbar-text pull-right">
+    	<a href="#"> <i class="fa fa-facebook fa-2x"></i> </a>
+    	<a href="#"> <i class="fa fa-twitter fa-2x"></i> </a>
+    	<a href="#"> <i class="fa fa-github fa-2x"></i> </a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/js-util/bootstrap.js"></script>
+  </body>
 </html>

@@ -1,0 +1,82 @@
+/*
+ * Stilizzazione di boostrap
+ */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+.btn{
+  font-family: 'Abril Fatface', cursive;
+}
+
+/*
+* Header
+*/
+.navbar-default{
+  background-color: #fff;
+  border: none;
+}
+.navbar-default .navbar-brand{
+  color: #000;
+  font-family: 'Abril Fatface', cursive;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{
+  background-color: #fff;
+}
+
+.btn-primary{
+  background-color: #000;
+  border: none; 
+  color: #fff;
+  border-radius: 0px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,{
+  background-color: #444;
+  border: none; 
+  color: #fff;
+  border-radius: 0px;
+}
+
+.no-border{
+  border:none;
+}
+
+/*
+* Content
+*/
+body{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/*p{
+  font-family: 'Open Sans', sans-serif;
+  
+}*/
+
+h1, h2, h3, h4, h5{
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+/*
+* Footer
+*/
+.navbar-default .navbar-text > a {
+  color: #000;
+  text-decoration: none;
+}
