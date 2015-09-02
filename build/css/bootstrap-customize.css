@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5 {
   font-family: 'Abril Fatface', cursive; }
 
 /*
-* Footer
+* Footer 00000
 */
-.navbar-default .navbar-text > a {
-  color: #000;
+.navbar-text > a {
+  color: #fff;
   text-decoration: none; }
