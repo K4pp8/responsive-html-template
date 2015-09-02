@@ -15,4 +15,4 @@ Da implementare in questa versione:
 Features:
 - Usare boostrap e fondation
 - Usare jade come si deve
-- Montare turro su un template engine php
+- Montare tutto su un template engine php
