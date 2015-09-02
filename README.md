@@ -9,8 +9,10 @@ Struttura base per un sito statico in html realizzato con tecnologie moderne per
 
 Da implementare in questa versione:
 - sistemare footer
-- implementare contenuti dummy
 - definire transizioni standard
+- definire gradienti su immagini
+- controllare anche bg full-screan
 
-Features:
+- implementare contenuti dummy
 - Usare jade come si deve
+- modificare la roba bootstrapposa con theme.css
